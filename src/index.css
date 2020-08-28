@@ -9,14 +9,14 @@ body {
 }
 
 .app {
-  background-image: url('./images/cold-bg.jpg');
+  background-image: url('./images/cold-img.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   transition: 0.4 ease;
 }
 
 .app.warm {
-  background-image: url('./images/warm-bg.jpg');
+  background-image: url('./images/warm-img.jpg');
 }
 
 main {
@@ -26,8 +26,8 @@ main {
 }
 
 .search-box {
-  width: 100%;
-  margin: 0 0 75px;
+  width: 70%;
+  margin: 0 auto 75px;
 }
 
 .search-box .search-bar {
